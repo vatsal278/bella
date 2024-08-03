@@ -70,3 +70,20 @@
     margin-left: 20%; /* Adjust this value as needed */
 }
 
+.custom-text {
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.flex-item {
+  margin: 0 8px;
+}
