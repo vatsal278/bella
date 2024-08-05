@@ -37,7 +37,6 @@
   }
 }
 
-/* styles.css or your preferred CSS file */
 @keyframes bounceRotate {
   0% {
     transform: rotate(0deg);
@@ -59,15 +58,15 @@
 .bounceRotate {
   animation: bounceRotate 0.5s ease-in-out;
 }
+
 .tilted {
   transform: rotate(10deg); /* Adjust the degree of rotation as needed */
 }
 
-/* styles.css */
 .half-size {
   width: 50%;
   height: auto;
-    margin-left: 20%; /* Adjust this value as needed */
+  margin-left: 20%; /* Adjust this value as needed */
 }
 
 .custom-text {
@@ -75,6 +74,19 @@
   font-size: 1.5em;
   font-weight: bold;
   margin-left: 16px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .custom-text {
+    font-size: 1.2em; /* Adjust for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-text {
+    font-size: 1em; /* Adjust for mobile devices */
+  }
 }
 
 .flex-container {
@@ -87,3 +99,4 @@
 .flex-item {
   margin: 0 8px;
 }
+

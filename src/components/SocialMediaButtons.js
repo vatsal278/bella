@@ -26,35 +26,35 @@ const SocialMediaButtons = ({ handleTilt }) => {
       {showContent && (
         <>
           <div className="flex-container">
-            <p className="custom-text flex-item" style={{ fontSize: '3.5em' }}>
+            <p className="custom-text flex-item bg-orange-100 p-3 rounded-full">
               $bella wants you to follow her on telegram and twitter and if you like invest on her cuteness on the contact address
             </p>
           </div>
-          <div className="flex-container">
+          <div className="flex-container rounded-full bg-gray-300 p-3">
             <a href="https://t.me/TADUMPORTAL" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
-              <button className="bg-black hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-4">Telegram</button>
+              <button className="bg-black hover:bg-red-600 text-white font-bold  rounded-full py-2 px-4 rounded ">Telegram</button>
             </a>
             <a href="https://twitter.com/tudumfornutz" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
-              <button className="bg-black hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-4">Twitter</button>
+              <button className="bg-black hover:bg-red-600 text-white font-bold py-2 px-4 rounded rounded-full ">Twitter</button>
             </a>
             <a href="https://t.me/TADUMPORTAL" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
-              <button className="bg-black hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-4">Contract Address</button>
+              <button className="bg-black hover:bg-red-600 text-white font-bold py-2 px-4 rounded  rounded-full ">Contract Address</button>
             </a>
           </div>
           <div className="flex-container">
-            <p className="custom-text flex-item" style={{ fontSize: '3.5em' }}>
-              $bella 
+            <p className="custom-text flex-item  bg-orange-100 p-3 rounded-full">
+              $bella
             </p>
             <img src="/bella.png" alt="Ball Image" className="half-size flex-item" />
           </div>
           <div className="flex-container">
             <img src="/Bella_wifhat.png" alt="Second Image" className="half-size flex-item" />
-            <p className="custom-text flex-item" style={{ fontSize: '3.5em' }}>
+            <p className="custom-text flex-item  bg-orange-100 p-3 rounded-full">
               $bellawifhat
             </p>
           </div>
           <div className="flex-container">
-            <p className="custom-text flex-item" style={{ fontSize: '3.5em' }}>
+            <p className="custom-text flex-item  bg-orange-100 p-3 rounded-full">
               $bella wants to meet new holders slurps
             </p>
             <img src="/Bella_slurping.png" alt="First Image" className="half-size flex-item" />
@@ -69,3 +69,4 @@ const SocialMediaButtons = ({ handleTilt }) => {
 };
 
 export default SocialMediaButtons;
+
