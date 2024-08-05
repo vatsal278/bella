@@ -63,13 +63,13 @@ const SocialMediaButtons = ({ handleTilt }) => {
 
           <div className="flex-container">
             <p className="custom-text flex-item bg-orange-100 p-4 rounded-full">
-              $bella wants you to follow her on telegram and twitter and if you like invest on her cuteness on the contact address
+              $bella the cutest cto dog on SOLANA
             </p>
           </div>
           
           <div className="flex-container">
             <p className="custom-text flex-item bg-orange-100 p-3 rounded-full">
-              $bella
+              $bella at Jeets
             </p>
             <img src="/bella.png" alt="Ball Image" className="half-size flex-item" />
           </div>
@@ -83,7 +83,7 @@ const SocialMediaButtons = ({ handleTilt }) => {
 
           <div className="flex-container">
             <p className="custom-text flex-item bg-orange-100 p-3 rounded-full">
-              $bella want to meet new holders slurps
+              $bella want meet new holders slurps
             </p>
             <img src="/Bella_slurping.png" alt="First Image" className="half-size flex-item" />
           </div>
