@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #00BFFF;
 }
 
 .App-link {
@@ -98,5 +98,29 @@
 
 .flex-item {
   margin: 0 8px;
+}
+.gif-container {
+  position: fixed;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+}
+
+.left-gif {
+  left: 5px;
+  top: 5%;
+  transform: translateY(-50%);
+  z-index: 1000; /* Ensure the GIFs appear above other content */
+}
+
+.right-gif {
+  right: 5px;
+  top: 5%;
+  transform: translateY(-50%);
+  z-index: 1000; /* Ensure the GIFs appear above other content */
+}
+
+.giphy-embed {
+  width: 100%;
+  height: 100%;
 }
 
