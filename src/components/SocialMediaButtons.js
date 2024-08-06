@@ -90,7 +90,7 @@ const SocialMediaButtons = ({ handleTilt }) => {
         </>
       )}
       {audioPlaying && (
-        <audio src="/audio_bark.mp3" autoPlay onEnded={handleAudioPause} />
+        <audio src="/dog-whimper-sad.wav" autoPlay onEnded={handleAudioPause} />
       )}
     </div>
   );
