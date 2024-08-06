@@ -36,24 +36,27 @@ const SocialMediaButtons = ({ handleTilt }) => {
 <div className="flex flex-col bg-gray-300 rounded-3xl items-center w-max p-3 mb-4">
   {/* Moonshot Button */}
   <div className="w-full px-10 mb-2">
-    <button className="moonshot-button bg-black hover:bg-red-600 text-white font-bold rounded-xl py-2 px-4 w-full">
-      Moonshot
-    </button>
+    <a href="" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
+      <button className="moonshot-button bg-black hover:bg-red-600 text-white font-bold rounded-xl py-2 px-4 w-full">
+        Moonshot
+      </button>
+    </a>
+    
   </div>
 
   {/* Buttons in a Row */}
   <div className="button-row flex flex-row">
-    <a href="https://t.me/TADUMPORTAL" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
+    <a href="https://t.me/bellaonsolanaa" target="_blank" rel="noopener noreferrer" एlassName="mx-2 flex-item">
       <button className="bg-black hover:bg-red-600 text-white font-bold rounded-full py-2 px-4">
         Telegram
       </button>
     </a>
-    <a href="https://twitter.com/tudumfornutz" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
+    <a href="" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
       <button className="bg-black hover:bg-red-600 text-white font-bold rounded-full py-2 px-4">
         Contract Address
       </button>
     </a>
-    <a href="https://t.me/TADUMPORTAL" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
+    <a href="https://twitter.com/tudumfornutz" target="_blank" rel="noopener noreferrer" className="mx-2 flex-item">
       <button className="bg-black hover:bg-red-600 text-white font-bold rounded-full py-2 px-4">
         Twitter
       </button>
